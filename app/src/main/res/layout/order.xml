@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="ANDROID APP"
+        android:textSize="25sp"
+        android:background="#ffff02"/>
+        <EditText
+            android:id="@+id/order_U"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            android:textSize="20sp" />
+        <EditText
+            android:id="@+id/order_P"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/startOrder_btn"
+            android:layout_width="161dp"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/managerOrder_btn"
+            android:layout_width="144dp"
+            android:layout_height="wrap_content"
+            android:text="Sign in"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+</LinearLayout>
