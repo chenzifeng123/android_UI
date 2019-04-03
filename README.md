@@ -1,7 +1,8 @@
 # android_UI
 
-1
 
+
+## 1.listview
 
     private ListView mListView;
     private String[] names = {"Lion", "Tiger", "Monkey", "Dog", "Cat", "Elephant"};
@@ -39,7 +40,10 @@
 
    截图：
    
-   2
+   <img width="300" height="450" src="https://github.com/chenzifeng123/image/blob/master/text1"/>
+   
+   
+   ## 2 自定义文本框
    
     //设置按钮事件
     private void initEvent() {
@@ -78,7 +82,10 @@
 
    截图：
    
-   3
+   <img width="300" height="450" src="https://github.com/chenzifeng123/image/blob/master/%E8%87%AA%E5%AE%9A%E4%B9%89%E6%96%87%E6%9C%AC%E6%A1%86.jpg"/>
+   
+   
+   ## 3 菜单
    
     private TextView txt;
     @Override
@@ -124,8 +131,16 @@
     }
     
   截图：
+  
+  <img width="300" height="450" src="https://github.com/chenzifeng123/image/blob/master/测试大号字体.png"/>
+  <img width="300" height="450" src="https://github.com/chenzifeng123/image/blob/master/测试小号字体.png"/>
+  <img width="300" height="450" src="https://github.com/chenzifeng123/image/blob/master/测试红色字体.png"/>
+  <img width="300" height="450" src="https://github.com/chenzifeng123/image/blob/master/测试菜单.jpg"/>
+  <img width="300" height="450" src="https://github.com/chenzifeng123/image/blob/master/测试菜单2.jpg"/>
+  <img width="300" height="450" src="https://github.com/chenzifeng123/image/blob/master/测试菜单3.jpg"/>
 
-  4
+
+ ## 4 上下文操作模式
     
     private String[] data = {"One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine","Ten"};
 
@@ -202,6 +217,10 @@
     }
     
   截图：
+  
+   <img width="300" height="450" src="https://github.com/chenzifeng123/image/blob/master/text4"/>
+   
+  
 
 
 
